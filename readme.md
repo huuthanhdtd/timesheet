@@ -1,6 +1,7 @@
+![screenshot.png](img/screenshot.png)
 ## Chatbot này là gì?
 Bot cho skype viết bằng google script, lưu trong google sheet.
-Dùng để điểm danh và quản lý thời gian nghỉ của team
+Dùng để điểm danh và quản lý thời gian làm việc của team
 
 ## Hội thoại cơ bản
 1. Checkin:  @OutOfBox おはよう|hi|hello|morning|出勤
@@ -36,10 +37,9 @@ Dùng để điểm danh và quản lý thời gian nghỉ của team
   > - Display Name: tên gì cũng đc
   > - Description: tùy bạn
   > - Endpoint: là url đã lưu ở **bước 1**
-  > - Bấm vào **Manage Microsoft App ID and password** để lấy **clientId**, **clientSecret** lưu lại dùng cho mục 4
 
-- Click Manage Microsoft App ID and password để lấy App ID, tiếp đó click Generate an app password to continue để lấy App password, nhớ lưu lại ID và password này để cấu hình cho bot ở các bước sau
-Cuối cùng, click Register để hoàn thành việc đăng ký bot
+- Click vào **Manage Microsoft App ID and password** để lấy **clientId**, **clientSecret** lưu lại dùng cho mục 4
+- Cuối cùng, click **Register** để hoàn thành việc đăng ký bot.
 
 ### 3. Cấu hình bot để kết nối với Skype
 - Đăng nhập vào [Bot Framework Portal](https://dev.botframework.com/)
@@ -50,6 +50,6 @@ Cuối cùng, click Register để hoàn thành việc đăng ký bot
 - Bấm vào Tên kênh **Skype** để add bot vào contact của skype
 
 ### 4. Bắt đầu code cho bot ở google script
-Bạn tạo 4 file như ở source code git hub và copy code vào.
+Bạn tạo 4 file như ở source code github và copy code vào.
 Thay đổi **clientId**, **clientSecret**
 Thiết lập trigger để chạy hằng ngày
