@@ -110,7 +110,7 @@ function confirmSignIn() {
     "text": "__confirmSignIn__",
     "type": "message",
     "timestamp": "2020-07-28T10:26:53.34Z",
-    "id": "1595932013175",
+    "id": "***",
     "channelId": "skype",
     "serviceUrl": "https://smba.trafficmanager.net/apis/",
     "from": {
@@ -131,7 +131,7 @@ function confirmSignOut() {
     "text": "__confirmSignOut__",
     "type": "message",
     "timestamp": "2020-07-28T10:26:53.34Z",
-    "id": "1595932013175",
+    "id": "***",
     "channelId": "skype",
     "serviceUrl": "https://smba.trafficmanager.net/apis/",
     "from": {
@@ -154,11 +154,11 @@ function testAction() {
     "text": "__confirmSignOut__",
     "type": "message",
     "timestamp": "2020-07-30T09:24:55.972Z",
-    "id": "1595928355951",
+    "id": "***",
     "channelId": "skype",
     "serviceUrl": "https://smba.trafficmanager.net/apis/",
     "from": {
-      "id": "29:1lSB24MkgCKlnL7qG-9rpwAgGzcCvx3l6QJFKj6ypzXQ",
+      "id": "***",
       "name": "フィタン(Stellar Doh)"
     },
     "entities": [
